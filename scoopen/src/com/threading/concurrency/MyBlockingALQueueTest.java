@@ -4,7 +4,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class MyBlockingQueueTest {
+public class MyBlockingALQueueTest {
 
 	public static void main(String[] args) {
 		//BlockingQueue<Message> bq = new ArrayBlockingQueue<>(10);
