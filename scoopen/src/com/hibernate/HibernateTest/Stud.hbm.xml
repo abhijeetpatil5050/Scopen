@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+    	<class name="com.hibernate.HibernateTest.Stud" table="STUDENT_DETAILS">
+    		
+    		<id name="id" column="STUD_ID" type="int"></id>
+    		
+    		<property name="name" column="STUD_NAME" type="string"></property>
+    		
+    		<property name="fees" column="STUD_FEES" type="int"></property>	
+			
+		</class>
+		
+    </hibernate-mapping>
+    
